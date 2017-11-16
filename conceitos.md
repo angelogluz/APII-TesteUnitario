@@ -71,6 +71,9 @@ assertEquals(Object valorEsperado, Object valorTestado)
 assertSame(Object valorEsperado, Object valorTestado)
 // Verifica se um objeto possui referência nula
 assertNull(Object objetoTestado)
+// Verifica se um valor avaliado na expressão é satisteifo no Matcher
+// Este método é utilizado para escrever testes com leitura mais fluída 
+assertThat(T actual, Matcher<? super T> matcher) 
 // Faz com que um teste falhe. Pode receber um valor por argumento
 fail(...)
 ```
