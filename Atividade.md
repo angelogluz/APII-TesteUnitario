@@ -17,6 +17,7 @@ Alguns dos requisitos são:
 **Cliente**
 - O <code>nome</code> do cliente deve possuir entre 3 e 40 caracteres
 - O <code>CPF</code> deve ser composto por 14 dígitos, no formato xxx.xxx.xxx-xx
+
 **Vendedor**
 - O <code>nome</code> do cliente deve possuir entre 3 e 40 caracteres
 - A <code>comissão</code> do vendedor deverá ser 10% da venda
